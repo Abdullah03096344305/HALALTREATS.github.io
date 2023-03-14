@@ -1,0 +1,138 @@
+.first {
+  border: 0px solid black;
+  width: 60%;
+  margin-left: 20.5%;
+}
+h1 {
+  color: grey;
+  transition: 0.3s width;
+  border: 0px solid black;
+  width: 30%;
+  margin-left: 35%;
+  font-size: 50px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+h1:hover {
+  color: #2f9292;
+}
+
+.btn {
+  color: grey;
+  font-size: 20px;
+  margin: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 0;
+  position: relative;
+  transition: 1s;
+}
+.btn:hover {
+  color: #289696;
+}
+.btn span {
+  display: block;
+  padding: 10px 13px;
+  position: relative;
+}
+.btn:before,
+.btn:after,
+.btn span:before,
+.btn span:after {
+  content: "";
+  background: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 0.15s ease-in-out 0s;
+}
+
+.btn:before,
+.btn:after {
+  width: 2px;
+  height: 0;
+}
+.btn span:before,
+.btn span:after {
+  width: 0;
+  height: 2px;
+  transition-delay: 0.15s;
+}
+.btn:after {
+  top: auto;
+  left: auto;
+  right: 0;
+  bottom: 0;
+}
+.btn:hover:after,
+.btn:hover:before {
+  height: 100%;
+  transition-delay: 0.15s;
+  color: black;
+}
+.btn span:before {
+  right: 0;
+  left: auto;
+}
+.btn span:after {
+  top: auto;
+  bottom: 0;
+}
+.btn:hover span:after,
+.btn:hover span:before {
+  width: 100%;
+  transition-delay: 0s;
+  color: black;
+}
+
+body {
+  /* background-color: black; */
+  color: grey;
+  font-size: 23px;
+  text-align: center;
+}
+.content-left p {
+  color: rgb(10, 10, 9);
+  font-size: 40px;
+  font-family: "Dancing Script", cursive;
+}
+.content-left ul {
+  color: rgb(82, 81, 81);
+  float: left;
+  font-size: 30px;
+  text-align: left;
+  font-family: "Dancing Script", cursive;
+}
+.content-right p {
+  margin-top: 1px;
+  padding-top: 1px;
+  color: rgb(10, 10, 9);
+  font-size: 50px;
+
+  font-family: "Dancing Script", cursive;
+}
+.content-right ul {
+  color: rgb(82, 81, 81);
+  font-size: 30px;
+  text-align: left;
+  font-family: "Dancing Script", cursive;
+}
+form {
+  padding: 1rem;
+}
+h3 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: rgb(17, 16, 16);
+  font-size: 50px;
+  font-family: "Dancing Script", cursive;
+}
+form input[type="text"] {
+  width: 30%;
+  padding: 0.5rem 0.7rem;
+  margin: 0.5rem 0;
+  outline: none;
+  border: 1px solid rgb(218, 211, 211);
+  color: rgb(15, 15, 14);
+  align-items: center;
+}

@@ -1,0 +1,184 @@
+.first{
+  border:0px solid black;
+  width:60% ;
+  margin-left: 20.5%
+}
+
+
+.btn{
+    color : grey ;
+    font-size: 20px;
+    margin: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    padding:0 ;
+    position: relative;
+    transition: 1s;
+
+}
+.btn:hover{
+    color: #2F9292;
+}
+.btn span{
+    display: block;
+    padding:10px 13px;
+    position: relative;
+    
+}
+.btn:before,
+.btn:after,
+.btn span:before,
+.btn span:after{
+    content:"";
+    background:black ;
+    position: absolute;
+    top:0;
+    left:0;
+    transition:all 0.15s ease-in-out 0s ;
+}
+
+.btn:before,
+.btn:after{
+    width:2px ;
+    height:0;
+}
+.btn span:before,
+.btn span:after{
+    width:0 ;
+    height:2px ;
+    transition-delay: 0.15s;
+}
+.btn:after{
+    top:auto;
+    left:auto;
+    right:0;
+    bottom:0;
+
+}
+.btn:hover:after,
+.btn:hover:before{
+    height:100%;
+    transition-delay: 0.15s;
+    color:black;
+}
+.btn span:before{
+    right:0;
+    left:auto;
+}
+.btn span:after{
+    top:auto;
+    bottom:0;
+}
+.btn:hover span:after,
+.btn:hover span:before{
+width:100%;
+transition-delay: 0s;
+color:black;
+}
+
+
+h1{
+    color:grey;
+    transition: 0.3s width;
+    border: 0px solid black;
+    width:30%;
+    margin-left: 35%;
+    font-size: 50px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1:hover{
+    color:#2F9292;
+}
+
+img{
+    width:100% ;
+}
+
+.man h2{
+    font-size: 25px;
+    float:right;
+    margin-right: 80px;
+    color:grey;
+    transition: 0.13s ;
+}
+.man h2:hover{
+    color:#2F9292;
+}
+
+
+
+
+
+
+.footer {
+    color: grey;
+    text-align: center;
+    font-family: cursive;
+    word-spacing: 1px;
+    line-height: 30px;
+  }
+  .footer h2 {
+    text-align: center;
+    font-family: "Dancing Script", cursive;
+    font-size: 50px;
+    color: grey;
+  }
+  
+  #footerlogos ul {
+    list-style: none;  
+    margin: 0;  
+    padding-left: 32%;
+    float: left;
+    border-radius: 3rem;
+    align-items: center;
+  }
+  #footerlogos ul a {
+    padding-left: 50px;
+    font-weight: bolder;
+    display: block;
+    align-items: center;
+  }
+  #footerlogos ul li {
+    float: left;
+    position: relative;
+    margin: 0;
+    padding-left: 10px;
+    padding-bottom: 0;
+    border-radius: 3rem;
+    align-items: center;
+  }
+
+  .story {
+    padding-left: 60px;
+    padding-right: 60px;
+    color: rgb(204, 195, 119);
+    line-height: 40px;
+    word-spacing: 1px;
+    text-align: center;
+    font-size: larger;
+    font-family: cursive;
+    margin-top: -100px;
+  }
+  .story h1 {
+    text-align: justify;
+    font-family: "Dancing Script", cursive;
+    font-size: 50px;
+    color: grey;
+    transition: 0.15s;
+  }
+  .story h1:hover{
+    color: #2F9292 ;
+  }
+  .story p{
+    color:grey;
+    transition: 0.15s;
+  }
+  .story p:hover{
+    color: #2F9292;
+  }
+  .img img{
+    height:600px;
+
+  }
+  
